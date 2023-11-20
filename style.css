@@ -3,16 +3,24 @@ h1, h3 {
   margin: 20px;
 }
 
+/*
 .container {
   text-align: center;
   padding: 20px;
 }
+*/
 
 button {
   display: block;
   margin: 0 auto;
 }
 
-.tachado {
+.completed {
   text-decoration: line-through;
+  font-style: italic;
+  color: #aaa;
+}
+
+.form {
+  display: flex;
 }
