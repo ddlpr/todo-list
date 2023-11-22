@@ -24,3 +24,7 @@ button {
 .form {
   display: flex;
 }
+
+.delete {
+  cursor: pointer;
+}
