@@ -58,12 +58,8 @@ const displayTasks = () => {
           lista.append(liElement);
           spanElement.contentEditable = 'true';
         }
-        //task.completed = task.completed ? false : true;
         e.target.querySelector('span').classList.toggle('completed');
-      } /*else if (e.target.tagName === 'SPAN') {
-        task.completed = task.completed ? false : true;
-        e.target.parentNode.querySelector('span').classList.toggle('completed');
-      }*/
+      } 
       localStorage.setItem('tareas', JSON.stringify(tasks));
     });
     spanElement.addEventListener('input', () => {
@@ -80,4 +76,3 @@ const displayTasks = () => {
 
 document.addEventListener('DOMContentLoaded', displayTasks);
 button.onclick = addTask;
-

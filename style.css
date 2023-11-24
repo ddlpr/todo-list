@@ -3,17 +3,8 @@ h1, h3 {
   margin: 20px;
 }
 
-button {
-  display: block;
-  margin: 0 auto;
-}
-
-#todo-list {
-  font-family: 'Indie Flower', cursive;
-}
-
-#completed-list {
-  font-family: 'Indie Flower', cursive;
+ul, #task {
+  font: 1.3em 'Indie Flower', cursive;
 }
 
 .completed {
@@ -24,6 +15,10 @@ button {
 
 .form {
   display: flex;
+}
+
+#task {
+  margin-right: 10px;
 }
 
 .delete {
